@@ -6,7 +6,7 @@ public class CharArit {
         ch++;  // adauga lui  ch variab de tip char
         System.out.println("ch++  este= " + ch);
         ch = 90;
-    System.out.println("caracterul  ch  este= " + ch);
+        System.out.println("caracterul  ch  este= " + ch);
 
     }
 }
