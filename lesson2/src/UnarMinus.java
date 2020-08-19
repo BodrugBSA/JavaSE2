@@ -18,12 +18,19 @@ public class UnarMinus {
         x--;
         System.out.println(x);*/
         int x=999;
-        int y=x++;
+        int y=++x;
         System.out.println(x);
         System.out.println(y);
         // 1) y=x, 2) x=x+1 => y=999  x=1000
         x+=y;  // x=x+y;
         System.out.println(x);
+        int a=2;
+        int b=++a; //a=11
+        a=10;
+        b=a++ +a+a-- ;
+        System.out.println(a);
+        System.out.println(b);
+
 
     }
 }
