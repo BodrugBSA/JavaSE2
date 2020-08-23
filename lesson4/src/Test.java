@@ -11,7 +11,12 @@ public class Test {
         Angajat angajat2=new Angajat();
         angajat2.nume="Svetlana"; //atribuire valori proprietatilor
         angajat2.printeazavirstanume();
+        angajat2.setvirsta(55);
+        System.out.println(" virsta="+angajat.damiVirsta());
         System.out.println(angajat);//apeleaza toString h code
-
+        if (angajat2.PensOrNo())
+            System.out.println("este pensionar");
+        else
+            System.out.println("nu este pensionar");
     }
 }

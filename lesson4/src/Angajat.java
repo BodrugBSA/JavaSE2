@@ -5,11 +5,19 @@ public class Angajat {
         System.out.println("constructor");
     }
     public long damiVirsta(){
-        //return virsta;
         System.out.println(virsta);
+        virsta++;
+        return virsta;
+
+    }
+    public boolean PensOrNo(){
+        if (virsta>60) return true;
+        else return false;
     }
     void setvirsta(long argumvirsta){
+
         virsta=argumvirsta;
+        return; // se poate omite
     }
     void printeazavirstanume(){
         System.out.println("virsta"+virsta+" "+nume);
