@@ -14,5 +14,10 @@ public class RetObj {
         A4 a4=a3.getA(); //11 new A4()
         System.out.println("a4 "+a4.x);
         System.out.println(a4.afis());
+        /////
+        B b =new B(a3);
+        System.out.println(b.obj);
+        System.out.println(b.i);
+
     }
 }
