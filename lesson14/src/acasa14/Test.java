@@ -18,6 +18,15 @@ public class Test {
         f2.nume="Bodrug";
         f2.prenume="Viorel";
         System.out.println(cp2.nume+" are nepot "+f2.prenume);
+        Fiu f3= new Fiu("nepot");
+        System.out.println(f3.showGrad(" nepot"));//afiseaza datele parintelui parintelui
+        // cu super.proprietate
+        // apelul cu super constructoarele
+        Fiu f4= new Fiu("nepot");
+
+        System.out.println(f4.showGrad(" nepot"));
+Fiica fi1=new Fiica("aa","bb",3," nepotica");
+fi1.show();
 
 
     }
